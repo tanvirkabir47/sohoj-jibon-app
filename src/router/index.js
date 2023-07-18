@@ -5,6 +5,7 @@ import Bazar from '../views/Bazar.vue'
 import NoteBook from '../views/NoteBook.vue'
 import Hisab from '../views/Hisab.vue'
 import ageCalculator from '../views/ageCalculator.vue'
+import stopWatch from '../views/stopWatch.vue'
 import Footer from '../views/Footer.vue'
 import Coming from '../views/Coming.vue'
 import NotFound from '../views/NotFound.vue'
@@ -35,6 +36,11 @@ const routes = [
         path:'/age-calculator',
         name:'age-calculator',
         component: ageCalculator
+    },
+    {
+        path:'/stop-watch',
+        name:'stop-watch',
+        component: stopWatch
     },
     {
         path:'/footer',

@@ -2,7 +2,7 @@
     <section class="section-padding">
         <div class="container">
             <div class="age-calculator">
-                <h1>বয়<span>স হি</span>সাব</h1>
+            <h1>বয়<span>স হি</span>সাব</h1>
                 <p class="age-title">আপনার জন্ম-তারিখ লিখুন:</p>
                 <input type="date" v-model="dob" placeholder="Month/Day/Year" />
                 <p v-if="dob === '' && clicked" class="warning">[বার্তা] আপনার জন্ম-তারিখ লিখুন !</p>
@@ -117,4 +117,6 @@ export default {
     display: block;
     margin: auto;
   }
+
+  
   </style>

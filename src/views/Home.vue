@@ -25,6 +25,12 @@
                     </div>
                 </RouterLink>
 
+                <RouterLink to="/stop-watch">
+                    <div class="card-body">
+                        <h5 class="card-title">বিরাম ঘড়ি</h5>
+                    </div>
+                </RouterLink>
+
                 <RouterLink to="/hisab-khata">
                     <div class="card-body">
                         <h5 class="card-title">হিসাব খাতা</h5>
@@ -55,7 +61,7 @@
     .card{
         display: grid;
         grid-gap: 40px;
-        grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
         grid-auto-rows: 250px;
         grid-auto-flow: dense;
         margin: 0 auto;

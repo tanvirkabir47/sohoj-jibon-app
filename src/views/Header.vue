@@ -11,6 +11,7 @@
                 <li> <router-link to="/bazar">বাজার-লিস্ট</router-link></li>
                 <li> <router-link to="/notebook">নোট-বুক</router-link></li>
                 <li> <router-link to="/age-calculator">বয়স-হিসাব</router-link></li>
+                <li> <router-link to="/stop-watch">বিরাম-ঘড়ি</router-link></li>
                 <li> <router-link to="/hisab-khata">হিসাব খাতা</router-link></li>
             </ul>
         </div>
@@ -19,7 +20,7 @@
 
 <style scoped>
 .navbar{
-    background: #116A7B;
+    background: #116A7B; 
 }
 .navbar .logo a{
     color: #fff;

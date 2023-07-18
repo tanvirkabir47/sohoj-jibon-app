@@ -4,7 +4,7 @@
             <div class="age-calculator">
                 <h1>বয়<span>স হি</span>সাব</h1>
                 <p class="age-title">আপনার জন্ম-তারিখ লিখুন:</p>
-                <input type="date" v-model="dob" />
+                <input type="date" v-model="dob" placeholder="Month/Day/Year" />
                 <p v-if="dob === '' && clicked" class="warning">[বার্তা] আপনার জন্ম-তারিখ লিখুন !</p>
                 <p v-else-if="age" class="age-show"> <span>আপনার বয়স হলো:</span> <br> {{ age }}</p>
                 <button v-on:click="calculateAge" class="btn btn-primary">হিসাব করুন</button>
